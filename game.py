@@ -345,9 +345,9 @@ class Game(object):
                 self.hero.money += random.randint(1, 20)
                 self.levels[self.hero.z][self.hero.y][self.hero.x] = "."
         elif stuff == ">":
-            self.log.insert(0, "It is Teleport. Press ENTER")
+            self.log.insert(0, "It is Teleport. Press T")
         elif stuff == "<":
-            self.log.insert(0, "It is Teleport. Press ENTER")
+            self.log.insert(0, "It is Teleport. Press T")
 
         # ---- end ----
         self.paint()
