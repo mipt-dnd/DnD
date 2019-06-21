@@ -502,7 +502,7 @@ class Game(object):
             im = pygame.transform.scale(im, (self.tile, self.tile))
             surface.blit(im, (x, y))
         elif text == "$" :
-            gold = pygame.image.load("gold.jpg")
+            gold = pygame.image.load("gold.png")
             gold = pygame.transform.scale(gold, (self.tile, self.tile))
             surface.blit(gold, (x, y))
         elif im != None :
